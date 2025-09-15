@@ -25,10 +25,10 @@ const Particle = () => {
         },
         particles: {
           number: {
-            value: 66,
+            value: 20, // Reduced from 66
             density: {
               enable: true,
-              value_area: 6666,
+              value_area: 2000, // Reduced from 6666
             },
           },
           color: {
@@ -70,7 +70,7 @@ const Particle = () => {
           },
           move: {
             enable: true,
-            speed: 6,
+            speed: 2, // Reduced from 6
             direction: "top-left",
             random: false,
             straight: false,
